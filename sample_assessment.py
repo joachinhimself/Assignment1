@@ -6,7 +6,7 @@ def add(a,b):
   return a + b
 a = int(input('Assign number for "a" between 1 to 9   '))
 b = int(input('Assign number for "b" between 1 to 9   '))
-c = a + b
+c = add(a,b)
 print(c)
 
   
